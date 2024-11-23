@@ -13,6 +13,10 @@
     --cor3: #0f0f0f;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: var(--cor1);
     height: 100vh;
@@ -335,6 +339,11 @@ form input, textarea{
 form textarea{
     resize: none;
     min-height: 100px;
+}
+
+form textarea::placeholder, input::placeholder{
+    color: var(--cor2);
+    opacity: 70%;
 }
 
 .btn-enviar input{
