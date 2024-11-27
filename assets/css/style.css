@@ -100,6 +100,7 @@ header{
     z-index: 1000;
     top: 0;
     margin: 0;
+    border: 2px red solid;
 }
 
 header .interface{
@@ -442,10 +443,8 @@ footer a:hover{
         font-size: 25px;
     }
 
-    body{
-        margin: 0;
-        padding: 0;
-        width: 100%;
+    footer{
+        border: 2px solid red;
     }
     /* INICIO */
     section.inicio .txt-inicio{
