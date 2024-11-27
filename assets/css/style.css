@@ -523,7 +523,6 @@ section.portifolio .txt{
 }
 
 section.portifolio h3{
-    font-size: 30px;
     text-align: center;
 }
 
@@ -547,7 +546,7 @@ footer .flex{
 }
 
 footer div.logo p{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
 }
 
