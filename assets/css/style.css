@@ -441,6 +441,11 @@ footer a:hover{
     p{
         font-size: 25px;
     }
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
     /* INICIO */
     section.inicio .txt-inicio{
         padding: 20px;
@@ -475,6 +480,7 @@ section.especialidades .especialidades-box{
 section.sobre .flex{
     flex-direction: column-reverse;
     justify-content: center;
+    align-items: center;
 }
 
 section.sobre .txt-sobre{
