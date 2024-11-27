@@ -85,6 +85,10 @@ header nav ul{
     list-style-type: none;
 }
 
+.menu-mobile, .btn-abrir{
+    display: none;
+}
+
 /* CABECALHO */
 header{
     padding: 5px 4% 10px 4%;
@@ -112,7 +116,7 @@ header a{
     display: inline-block;
 }
 
-header > nav.menu-desktop > a:hover{
+header  nav.menu-desktop  a:hover{
     color: rgb(255, 255, 255);
     text-decoration: underline #9D7637 3px;
     transform: scale(1.05);
@@ -503,9 +507,7 @@ section.portifolio button{
 
 /* MENU MOBILE */
 
-
-
-.menu-comput{
+.menu-desktop, .btn-contato{
     display: none;
 }
 
@@ -518,6 +520,19 @@ section.portifolio button{
     width: 0%;
     background-color: var(--cor1);
     overflow: hidden;
+    transition: .4s;
+}
+
+.menu-mobile, .btn-abrir{
+    display: block;
+}
+
+.menu-mobile.abrir-menu{
+    width: 70%;
+}
+
+.menu-mobile.abrir-menu ~ .overlay-menu{
+    display: block;
 }
 
 .menu-mobile nav ul{

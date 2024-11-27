@@ -9,12 +9,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/menu.js" defer></script>
 </head>
 <body>
     <header id="inicio">
         <div class="interface">
             <div class="logo"><p>CANEDO <span>DEV</span></p></div>
-            <div class="menu-comput">
                 <nav class="menu-desktop">
                     <ul>
                         <li><a href="#inicio">Início</a></li>
@@ -26,13 +26,11 @@
                 <div class="btn-contato">
                     <button onclick="window.location.href='#contato'">Contato</button>
                 </div>
-            </div>
 
-            <div class="btn-abrir">
+            <div id="btn-abrir" class="btn-abrir">
                 <i class="bi bi-list"></i>
             </div>
-            
-            <div class="menu-mobile">
+            <div id="menu-mobile" class="menu-mobile">
                 <div class="btn-fechar">
                     <i class="bi bi-x-lg"></i>
                 </div>
@@ -48,7 +46,7 @@
                     </nav>
                 </div>
             </div>
-            <div class="overlay-menu"></div>
+            <div id="overlay-menu" class="overlay-menu"></div>
         </div>
     </header>
 
