@@ -100,7 +100,6 @@ header{
     z-index: 1000;
     top: 0;
     margin: 0;
-    border: 2px red solid;
 }
 
 header .interface{
@@ -320,17 +319,30 @@ h3.projeto{
     justify-content: center;
     width: 100%;
     height: 100%;
-    font-size: 24px;
-    font-weight: 600px;
-    background-color: rgba(0, 0, 0, 0.301);
+    font-size: 26px;
+    font-weight: 800px;
+    background-color: rgba(0, 0, 0, 0.404);
     border-radius: 20px;
-    transition: .5s;
-    opacity: 0;
+    transition: .2;
+    opacity: 100%;
     text-decoration: underline var(--cor2);
 }
 
+.overlay p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.overlay i{
+    color: var(--cor2);
+    font-size: 40px;
+}
+
 .overlay:hover{
-    opacity: 100%;
+    opacity: 0%;
 }
 
 /* CONTATO */
@@ -443,8 +455,8 @@ footer a:hover{
         font-size: 25px;
     }
 
-    footer{
-        border: 2px solid red;
+    section, footer{    
+        width: 100%;
     }
     /* INICIO */
     section.inicio .txt-inicio{
