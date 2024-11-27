@@ -17,10 +17,12 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
+body, html{
     background-color: var(--cor1);
     height: 100vh;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .interface{
@@ -92,6 +94,12 @@ header nav ul{
 /* CABECALHO */
 header{
     padding: 5px 4% 10px 4%;
+    position: fixed;
+    width: 100%;
+    background-color: #141414;
+    z-index: 1000;
+    top: 0;
+    margin: 0;
 }
 
 header .interface{
@@ -129,13 +137,13 @@ section.inicio{
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
-    height: 89vh;
+    height: 100vh;
     width: 100%;
     border-bottom: solid 2px var(--cor2);
 }
 
 section.inicio .flex{
-    height: 89vh;
+    height: 100vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -346,6 +354,7 @@ form input, textarea{
     outline: 0;
     padding: 20px 15px;
     font-size: 18px;
+    color: white;
 }
 
 form textarea{
@@ -379,7 +388,7 @@ form textarea::placeholder, input::placeholder{
 footer{
     padding: 30px 4%;
     border-top: solid 2px var(--cor2);
-    background-color: var(--cor3);
+    background-color: #141414;
 }
 
 footer .flex{
