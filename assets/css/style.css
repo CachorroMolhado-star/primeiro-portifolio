@@ -171,7 +171,7 @@ section.inicio .txt-inicio h2{
 /* ESPECIALIDADES */
 section.especialidades{
     background-color: #0f0f0f;
-    padding: 40px 4%;
+    padding: 80px 4%;
 }
 
 section.especialidades .flex{
@@ -213,7 +213,7 @@ section.especialidades .especialidades-box h3{
 
 /* SOBRE */
 section.sobre{
-    padding: 40px 4%;
+    padding: 80px 4%;
 }
 
 section.sobre .flex{
